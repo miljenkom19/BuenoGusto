@@ -41,7 +41,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Početna</a></li>
           <li><a class="nav-link scrollto" href="#menu">Jelovnik</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">O projektu</a></li>
+          <li><a class="nav-link scrollto" href="#projekt">O projektu</a></li>
           <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -65,9 +65,6 @@
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>Bueno</span> Gusto</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut 
-                  et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. 
-                  Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Jelovnik</a>
                   <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Rezervacija</a>
@@ -83,46 +80,6 @@
   </section><!-- End Hero -->
 
   <main id="main">
-    <!-- ======= Whu Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Zašto <span>Bueno Gusto?</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box">
-              <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box">
-              <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box">
-              <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Whu Us Section -->
-
     <!-- ======= Menu Section ======= -->
     <section id="menu" class="menu">
       <div class="container">
@@ -234,7 +191,6 @@
 
         <div class="section-title">
           <h2>Rezervirajte  <span>Mjesto</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
 
         <form action="/submit" method="post" role="form" class="php-email-form">
@@ -275,14 +231,14 @@
 
     
     <!-- ======= Chefs Section ======= -->
-    <section id="chefs" class="chefs">
+    <section id="projekt" class="projekt">
       <div class="container">
 
         <div class="row">
 
           <div class="col-lg-4">
             <div class="member">
-              <div class="pic"><img src="img/chefs/jelena.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="img/projekt/jelena.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Jelena Petrušić</h4>
                 <span>Mostar</span>
@@ -294,13 +250,13 @@
 
           <div class="col-lg-4">
             <div class="member">
-              <div class="pic"><img src="img/tech.png" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="img/tehnologije.png" class="img-fluid" alt=""></div>
             </div>
           </div>
 
           <div class="col-lg-4">
             <div class="member">
-              <div class="pic"><img src="img/chefs/miljenko.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="img/projekt/miljenko.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Miljenko Marković</h4>
                 <span>Stolac</span>
@@ -321,7 +277,6 @@
 
         <div class="section-title">
           <h2><span>Kontaktirajte</span> Nas</h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
       </div>
 

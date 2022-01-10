@@ -128,8 +128,11 @@ fun Application.configureRouting() {
                 set(it.message, message)
             }
 
-            call.respondRedirect("http://localhost:8080")
+            call.respondRedirect("http://localhost:8080/reservation")
         }
 
+        get("/reservation") {
+            call.respond(FreeMarkerContent("rezervacija.ftl", kotlinx.html.emptyMap))
+        }
     }
 }
