@@ -92,91 +92,110 @@
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Goveđi Odrezak</a><span>€15.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Bread barrel</a><span>$6.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Svinjski Vrat</a><span>€13.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
-            </div>
-            <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+              <a href="#">Pileći Fileti</a><span>€10.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Cezar Salata</a><span>€7.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              <a href="#">Salata od Hobotnice</a><span>€9.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
+              <a href="#">Grčka Salata</a><span>€5.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
+              <a href="#">Pasta Italiana</a><span>€9.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+              <a href="#">Penne Pasta</a><span>€9.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+              <a href="#">Lignje</a><span>€11.95</span>
             </div>
           </div>
 
           <div class="col-lg-6 menu-item">
             <div class="menu-content">
-              <a href="#">Pita mala</a><span>$12.95</span>
+              <a href="#">Juha od škampa</a><span>€13.95</span>
             </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Tartar od lososa</a><span>€13.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Rakova Poslastica</a><span>€14.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Muffini s borovnicama</a><span>€8.95</span>
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Čokoladna torta</a><span>€10.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Sezonsko voće</a><span>€7.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Sladoled</a><span>€5.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Pita od jabuka</a><span>€8.95</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item">
+            <div class="menu-content">
+              <a href="#">Cheesecake</a><span>€11.95</span>
             </div>
           </div>
 
@@ -318,7 +337,6 @@
   <footer id="footer">
     <div class="container">
       <h3>Bueno Gusto</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="copyright">
         &copy; Copyright <strong><span>Bueno Gusto</span></strong>. All Rights Reserved
       </div>
