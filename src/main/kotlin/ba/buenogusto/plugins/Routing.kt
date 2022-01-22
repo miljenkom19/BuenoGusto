@@ -2,11 +2,7 @@ package ba.buenogusto.plugins
 
 import ba.buenogusto.db.DatabaseConnection
 import ba.buenogusto.entities.ReservationEntity
-import ba.buenogusto.entities.ReservationEntity.noOfPeople
 import ba.buenogusto.entities.UserEntity
-import ba.buenogusto.entities.UserEntity.username
-import ba.buenogusto.model.ReservationRequest
-import ba.buenogusto.model.User
 import ba.buenogusto.model.UserRequest
 import io.ktor.routing.*
 import io.ktor.application.*
@@ -112,7 +108,7 @@ fun Application.configureRouting() {
             val params = call.receiveParameters()
             val name = params["name"]
             val email = params["email"]
-            val phone = params["phone"] ?: 0
+            val phone = params["phone"] ?: " "
             val date = params["date"]
             val time = params["time"]
             val noOfPeople = params["noOfPeople"]?.toInt()

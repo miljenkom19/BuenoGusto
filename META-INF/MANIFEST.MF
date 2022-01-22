@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Main-Class: ba.buenogusto.ApplicationKt
+Class-Path: logback-classic-1.2.10.jar netty-transport-4.1.69.Final.jar 
+ ktor-http-cio-jvm-1.6.7.jar http2-http-client-transport-9.4.42.v2021060
+ 4.jar ktor-server-core-jvm-1.6.7.jar ktorm-core-3.4.1.jar http2-hpack-9
+ .4.42.v20210604.jar netty-transport-native-unix-common-4.1.69.Final.jar
+  ktor-http-jvm-1.6.7.jar jetty-alpn-java-client-9.4.42.v20210604.jar ko
+ tlin-stdlib-jdk7-1.6.10.jar ktor-network-tls-certificates-jvm-1.6.7.jar
+  kotlinx-serialization-json-jvm-1.3.0.jar netty-resolver-4.1.69.Final.j
+ ar ktor-server-test-host-jvm-1.6.7.jar logback-core-1.2.10.jar mysql-co
+ nnector-java-8.0.27.jar jetty-alpn-client-9.4.42.v20210604.jar ktor-gso
+ n-jvm-1.6.7.jar netty-common-4.1.69.Final.jar ktor-utils-jvm-1.6.7.jar 
+ ktor-client-cio-jvm-1.6.7.jar kotlinx-html-jvm-0.7.3.jar netty-transpor
+ t-native-kqueue-4.1.69.Final.jar ktor-network-jvm-1.6.7.jar slf4j-api-1
+ .7.32.jar kotlin-stdlib-common-1.6.10.jar ktor-server-host-common-jvm-1
+ .6.7.jar http2-client-9.4.42.v20210604.jar kotlin-test-1.6.10.jar annot
+ ations-13.0.jar jna-platform-5.5.0.jar ktor-server-tests-jvm-1.6.7.jar 
+ ktor-server-netty-jvm-1.6.7.jar hamcrest-core-1.3.jar ktor-network-tls-
+ jvm-1.6.7.jar netty-codec-4.1.69.Final.jar netty-buffer-4.1.69.Final.ja
+ r ktor-websockets-jvm-1.6.7.jar gson-2.8.9.jar ktor-client-core-jvm-1.6
+ .7.jar protobuf-java-3.11.4.jar kotlinx-coroutines-debug-1.5.2-native-m
+ t.jar jansi-2.4.0.jar http2-common-9.4.42.v20210604.jar ktor-io-jvm-1.6
+ .7.jar netty-transport-native-epoll-4.1.69.Final.jar netty-handler-4.1.
+ 69.Final.jar kotlinx-coroutines-jdk8-1.5.2-native-mt.jar kotlin-stdlib-
+ jdk8-1.6.10.jar junit-4.13.2.jar kotlin-test-junit-1.6.10.jar jetty-uti
+ l-9.4.42.v20210604.jar kotlin-reflect-1.6.0.jar kotlin-stdlib-1.6.10.ja
+ r jetty-alpn-openjdk8-client-9.4.42.v20210604.jar ktor-client-jetty-jvm
+ -1.6.7.jar freemarker-2.3.31.jar jna-5.5.0.jar kotlinx-coroutines-core-
+ jvm-1.5.2-native-mt.jar netty-codec-http2-4.1.69.Final.jar ktor-html-bu
+ ilder-jvm-1.6.7.jar config-1.4.1.jar ktor-freemarker-jvm-1.6.7.jar jett
+ y-client-9.4.42.v20210604.jar ktor-serialization-jvm-1.6.7.jar netty-co
+ dec-http-4.1.69.Final.jar alpn-api-1.1.3.v20160715.jar jetty-io-9.4.42.
+ v20210604.jar jetty-http-9.4.42.v20210604.jar kotlinx-serialization-cor
+ e-jvm-1.3.0.jar
+
