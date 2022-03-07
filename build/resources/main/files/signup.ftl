@@ -23,12 +23,12 @@
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-		      	<form action="/signup" method="post" class="signin-form">
+		      	<form action="/signup" method="post" class="signin-form" onsubmit="return validate()">
 		      		<div class="form-group">
-		      			<input type="text" class="form-control" placeholder="Username" required name="username">
+		      			<input id="username" type="text" class="form-control" placeholder="Username" required name="username">
 		      		</div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Password" required name="password">
+	              <input id="password" type="password" class="form-control" placeholder="Password" required name="password">
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <div class="form-group">

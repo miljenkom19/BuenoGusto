@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="user" type="ba.buenogusto.model.UserRequest" -->
+<#-- @ftlvariable name="text" type="String" -->
 <#-- @ftlvariable name="link" type="String" -->
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@
       </nav><!-- .navbar -->
 
       <a href="#book-a-table" class="book-a-table-btn scrollto">Rezervacija</a>
-      <a href="/${link}" class="login-btn">${user.username}</a>
+      <a href="/${link}" class="login-btn">${text}</a>
 
     </div> 
   </header><!-- End Header -->
@@ -214,10 +214,6 @@
 
         <form action="/submit" method="post" role="form" class="php-email-form">
           <div class="row">
-            <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Ime" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
               <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
               <div class="validate"></div>
@@ -227,11 +223,7 @@
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" name="date" class="form-control" id="date" placeholder="Datum" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-lg-4 col-md-6 form-group mt-3">
-              <input type="text" class="form-control" name="time" id="time" placeholder="Vrijeme" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="datetime-local" name="dateTime" class="form-control" id="dateTime" placeholder="Datum & Vrijeme" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3">
@@ -284,6 +276,19 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-lg-8">
+            <div class="member">
+              <div class="pic"><img src="img/projekt/diagram.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <span>Vizija: <a href="#">link</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2"></div>
 
         </div>
 

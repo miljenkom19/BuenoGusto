@@ -1,15 +1,17 @@
 package ba.buenogusto.model
 
+import kotlinx.datetime.LocalDateTime
 import kotlinx.serialization.Serializable
 
 @Serializable
 data class Reservation(
     val id: Int,
-    val name: String,
+    val user: Int,
     val email: String,
     val phone: String,
-    val date: String,
-    val time: String,
+    val dateTime: LocalDateTime,
     val noOfPeople: Int,
     val message: String
 )
+
+
